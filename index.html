@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wanderlines — Lecture 2 Starter</title>
+  <!-- Link the reset and style .css files -->
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============================================================
+       LARGE STICKY HEADER
+       Required: must remain visible while the user scrolls.
+       ============================================================ -->
+  <header>
+    <div class="brand">
+      <h1>Wanderlines</h1>
+      <p class="tagline">A travel blog about how you get there.</p>
+    </div>
+    <nav>
+      <a href="#gallery-grid">Grid Gallery</a>
+      <a href="#gallery-flex">Flex Gallery</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ============================================================
+         SECTION 1 — Photo gallery, styled with display: grid + minmax()
+         At least 10 cards. Each card = image + heading + description.
+         ============================================================ -->
+    <section id="grid-gallery">
+      <header>
+        <h2>Ireland — Grid Gallery</h2>
+        <!--<p>Style this <code>.grid</code> with <strong>display: grid</strong> and
+        <code>repeat(auto-fill, minmax(220px, 1fr))</code> in styles.css.</p>-->
+      </header>
+
+      <div class="grid">
+        <figure>
+          <img src="images/one_kinda_folk_entranceway.jpg"
+               alt="Café entrance with flower-filled hanging basket and pink-orange neon sign reading One Kinda Folk above the door">
+          <figcaption>One Kinda Folk café entrance</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/focaccia_sandwich_and_chai.jpg"
+               alt="Arugula, tomato, mozzarella, ham, and pesto mayonnaise focaccia sandwich to the left of a hot chai topped with pink rose petals">
+          <figcaption>Pesto focaccia sandwich with hot chai</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/christ_church_cathedral.jpg"
+               alt="Grey medieval style cathderal with light yellow window archways, surrounded by green grass and trees">
+          <figcaption>Christ Church Cathedral</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/president_of_ireland_house.jpg"
+               alt="Distant white building with columns and an Irish flag on the roof surrounded by a flat green lawn and large trees">
+          <figcaption>Áras an Uachtaráin (The President's House)</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/the_custom_house_dublin.jpg"
+               alt="Neoclassical government building with statue on top of a rounded teal roof and gold clock below it, sitting on columns with Irish and European Union flagpoles in front">
+          <figcaption>The Custom House</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/samuel_beckett_bridge.jpg"
+               alt="White, harp-looking cable-stayed bridge over the dark blue River Liffey">
+          <figcaption>Samuel Beckett Bridge</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/google_docks_dublin.jpg"
+               alt="Contemporary tall buildings with reflective windows and orange outer structures backdrop small, grey stone Bolands Flour Mills buildings and a bridge over the River Liffey">
+          <figcaption>Google Docks</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/directional_signs_howth.jpg"
+               alt="Orange-brown arrowlike sign pointing towards the left reads Howth Pier Fishing (codling, dogfish, flounder, pollack, whiting) while the sign pointing to the right reads Habour Bar & Restaurant (Peninsula Brewery, Just Crafty Howth Beer, ATM all Cards)">
+          <figcaption>Signs pointing to Howth pier fishing and harbour bars/restaurants</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/st_marys_church_howth.jpg"
+               alt="Stone rooftop with archways incorporating triangular, geometric designs against a setting sky and light grey clouds, protected by stone walls overgrown with green leaves and vines">
+          <figcaption>St. Mary's Church</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/brunchy_eggs_brother_hubbard.jpg"
+               alt="Poached eggs, caramelized onions, tomatoes, yogurt, and avocado on toasted sourdough bread garnished with cilantro on an orange ceramic glazed plate with a side of fried halloumi cheese">
+          <figcaption>The brunchy eggs at Brother Hubbard</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/palestinian_flag_howth.JPG"
+               alt="Palestinian flag (red triangle overlaying black, white, and green stripes from top to bottom, respectively) on a person's homefront in Howth surrounded by green and red shrubs and a sign that reads Go Mall SLOW">
+          <figcaption>Palestinian flag in the wind</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION 2 — Photo gallery, styled with display: flex
+         At least 10 cards. Same content shape; different layout.
+         ============================================================ -->
+    <section id="flex-gallery">
+      <header>
+        <h2>Food & Drink — Flex Gallery</h2>
+        <p>Style this <code>.flex</code> with <strong>display: flex</strong>,
+        <code>flex-wrap: wrap</code>, and <code>flex: 1 0 250px; </code> on the figures.</p>
+      </header>
+
+      <div class="flex">
+        <figure>
+          <img src="https://picsum.photos/seed/breakfast/640/420"
+               alt="REPLACE: specific description">
+          <figcaption>Full Irish breakfast</figcaption>
+        </figure>
+
+        <figure>
+          <img src="https://picsum.photos/seed/pub/640/420"
+               alt="REPLACE: specific description">
+          <figcaption>Pub in Temple Bar</figcaption>
+        </figure>
+
+        <figure>
+          <img src="https://picsum.photos/seed/seafood/640/420"
+               alt="REPLACE: specific description">
+          <figcaption>Seafood chowder</figcaption>
+        </figure>
+
+        <figure>
+          <img src="https://picsum.photos/seed/scones/640/420"
+               alt="REPLACE: specific description">
+          <figcaption>Cream tea</figcaption>
+        </figure>
+
+        <figure>
+          <img src="https://picsum.photos/seed/whiskey/640/420"
+               alt="REPLACE: specific description">
+          <figcaption>Distillery tour</figcaption>
+        </figure>
+
+        <figure>
+          <img src="https://picsum.photos/seed/coffee/640/420"
+               alt="REPLACE: specific description">
+          <figcaption>Morning coffee</figcaption>
+        </figure>
+
+        <figure>
+          <img src="https://picsum.photos/seed/farmers/640/420"
+               alt="REPLACE: specific description">
+          <figcaption>Farmers market</figcaption>
+        </figure>
+
+        <figure>
+          <img src="https://picsum.photos/seed/cheese/640/420"
+               alt="REPLACE: specific description">
+          <figcaption>Local cheese plate</figcaption>
+        </figure>
+
+        <figure>
+          <img src="https://picsum.photos/seed/stew/640/420"
+               alt="REPLACE: specific description">
+          <figcaption>Beef and Guinness stew</figcaption>
+        </figure>
+
+        <figure>
+          <img src="https://picsum.photos/seed/bread/640/420"
+               alt="REPLACE: specific description">
+          <figcaption>Soda bread</figcaption>
+        </figure>
+
+        <figure>
+          <img src="https://picsum.photos/seed/dessert/640/420"
+               alt="REPLACE: specific description">
+          <figcaption>Apple tart</figcaption>
+        </figure>
+
+        <figure>
+          <img src="https://picsum.photos/seed/pint/640/420"
+               alt="REPLACE: specific description">
+          <figcaption>The perfect pint</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About this site</h2>
+      <p>This is a class assignment. Replace this paragraph with a short blurb
+      about your trip and what kind of accessibility considerations you put into
+      the design.</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Colleen van Lent; Built for Accessible Web Design Lecture 2</p>
+  </footer>
+
+</body>
+</html>
