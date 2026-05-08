@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../lecture-2-demos"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "lecture-2-starter"
+	}
+}
