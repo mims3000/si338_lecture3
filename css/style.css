@@ -7,8 +7,8 @@
 :root {
   --bg:        #d8d4d5;
   --surface:   #ffffff;
-  --ink:       #1a1a1a;
-  --muted:     #a0a0a0;
+  --ink:       #000000;
+  --muted:     #000000;
   --accent:    #000000;
   --accent-ink:#ffffff;
   --links:     ##81c784;
